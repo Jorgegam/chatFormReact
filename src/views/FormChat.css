@@ -1,0 +1,65 @@
+:root {
+    --color-chat: rgb(219, 107, 154);
+}
+
+.text-pink {
+    color: var(--color-chat);
+}
+
+#form {
+    width: 30%;
+    position: relative;
+}
+
+.btn-pink {
+    margin-left: auto;
+    color: #fff;
+    background-color: var(--color-chat);
+    border-color: var(--color-chat);
+}
+
+.btn-pink:hover, .btn-pink:active {
+    color: #000;
+    background-color: var(--color-chat);
+    border-color: var(--color-chat);
+}
+
+.label-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: var(--color-chat);
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+}
+
+.image-wraper {
+    border-radius: 40px;
+    border: 2px solid var(--color-chat);
+    width: 92%;
+    height: 90px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    padding: 2px;
+}
+
+.card-info {
+    background-color: var(--color-chat);
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.block_page {
+    position: absolute;
+    background-color: #00000029;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999999;
+    top: 0;
+    left: 0;
+}
